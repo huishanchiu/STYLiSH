@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="STYLISH，優雅、簡約，不僅僅是外在表象，更是你隨身攜帶的袖珍戲劇，舉手投足間散發你的獨特美"
+    />
+    <link rel="icon" href="./images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/product.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/cart.css" />
+    <link rel="stylesheet" href="CSS/thankyou.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LGH8SQKYYK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-LGH8SQKYYK');
+    </script>
+    <title>STYLISH 訂購完成</title>
+  </head>
+
+  <body>
+    <div class="desktop-header">
+      <a class="logo" href="./index.html">
+        <img src="./images/logo.png" height="48" />
+      </a>
+      <div class="nav">
+        <a href="./index.html?tag=women" class="tag tag-women">女裝</a>
+        <div class="tag-line">|</div>
+        <a href="./index.html?tag=men" class="tag tag-men">男裝</a>
+        <div class="tag-line">|</div>
+        <a href="./index.html?tag=accessories" class="tag tag-accessories"
+          >配件</a
+        >
+      </div>
+      <form style="border: none">
+        <input id="searchInput" class="search" type="search" name="keyword" />
+      </form>
+
+      <a class="cart" href="./cart.html">
+        <img src="./images/cart.png" height="44" />
+        <div class="count">0</div>
+      </a>
+      <a class="member" href="./profile.html">
+        <img src="./images/member.png" height="44" />
+      </a>
+    </div>
+    <!-- moblie-header -->
+    <div class="mobile-header">
+      <a href="./index.html"><img src="./images/logo.png" height="20" /></a>
+      <form>
+        <input class="search" type="search" name="keyword" />
+      </form>
+    </div>
+    <!-- mobile-nav -->
+    <div class="mobile-nav">
+      <a href="./index.html?tag=women" class="tag tag-men">女裝</a>
+      <a href="./index.html?tag=men" class="tag tag-women">男裝</a>
+      <a href="./index.html?tag=accessories" class="tag tag-accessories"
+        >配件</a
+      >
+    </div>
+
+    <main>
+      <div id="thankyou">
+        <h2>感謝您的購買，我們會盡快將商品送達！</h2>
+        <h3>請記住以下訂單編號，以便查詢</h3>
+        <div id="number"></div>
+        <a href="./">再回賣場看看</a>
+      </div>
+    </main>
+
+    <div class="mobile-footer">
+      <a class="cart" href="./cart.html">
+        <img src="./images/cart-mobile.png" height="44" />
+        <div class="count">0</div>
+        購物車
+      </a>
+      <a class="member" href="./profile.html">
+        <img src="./images/member-mobile.png" height="44" />
+        會員
+      </a>
+    </div>
+    <footer>
+      <nav>
+        <ul>
+          <li>關於 Stylish</li>
+          <li>服務條款</li>
+          <li>隱私政策</li>
+          <li>聯絡我們</li>
+          <li>FAQ</li>
+        </ul>
+      </nav>
+      <div class="links">
+        <img src="./images/line.png" />
+        <img src="./images/twitter.png" />
+        <img src="./images/facebook.png" />
+      </div>
+      <div class="rights">© 2021. All rights reserved.</div>
+    </footer>
+    <script type="module" src="JS/thankyou.js"></script>
+  </body>
+</html>

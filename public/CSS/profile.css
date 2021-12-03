@@ -1,0 +1,36 @@
+.profile {
+  padding: 300px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+.profile h2 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: grey solid 1px;
+}
+.profile #member {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profile #member h3 {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin: 1.5em;
+}
+.profile #member .member__detail .logoutBtn {
+  color: cornsilk;
+  background-color: rgba(0, 0, 0, 0.544);
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+}
